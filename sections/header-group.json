@@ -13,10 +13,15 @@
   "sections": {
     "header": {
       "type": "header",
-      "settings": {}
+      "custom_css": [
+        "svg {max-height: 40px;}"
+      ],
+      "settings": {
+        "menu": ""
+      }
     }
   },
   "order": [
     "header"
-  ],
+  ]
 }
